@@ -1,0 +1,9 @@
+Started by user [8mha:////4K3KVMJBKdnNlwoOF8veYBXGMBhpdCa/OjQBSfbkNbYrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL9cnOgknQAtbNcvsEAAAA=[0mOleg Vostrikov
+Running as SYSTEM
+Building in workspace C:\Jenkins\workspace\Simple job
+[Simple job] $ cmd /c call C:\WINDOWS\TEMP\jenkins7103714515346012765.bat
+
+C:\Jenkins\workspace\Simple job>ECHO hello  1>file.txt 
+
+C:\Jenkins\workspace\Simple job>exit 0 
+Finished: SUCCESS

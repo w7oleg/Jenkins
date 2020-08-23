@@ -1,0 +1,57 @@
+Started by user [8mha:////4K3KVMJBKdnNlwoOF8veYBXGMBhpdCa/OjQBSfbkNbYrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL9cnOgknQAtbNcvsEAAAA=[0mOleg Vostrikov
+Running as SYSTEM
+Building in workspace C:\Jenkins\workspace\Task1
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/w7oleg/Java.git # timeout=10
+Fetching upstream changes from https://github.com/w7oleg/Java.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/w7oleg/Java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision b0824307758fd9f21214c5fddc203e9d39e7d798 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f b0824307758fd9f21214c5fddc203e9d39e7d798 # timeout=10
+Commit message: "Finish"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk b0824307758fd9f21214c5fddc203e9d39e7d798 # timeout=10
+[Task1] $ cmd.exe /C "C:\apache-maven-3.6.3-bin\bin\mvn.cmd test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for org.example:Task1:jar:1.0-SNAPSHOT
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'dependencies.dependency.version' for org.junit.jupiter:junit-jupiter:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 20, column 22
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] -------------------------< org.example:Task1 >--------------------------
+[INFO] Building Task1 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml
+Progress (1): 902 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml (902 B at 846 B/s)
+[INFO] 
+[8mha:////4Lh/n3Hgn8oTXZlu7nCQSN6WUlD1Xutg0CuYVtjaN2OXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Task1 ---
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\workspace\Task1\src\main\resources
+[INFO] 
+[8mha:////4Lh/n3Hgn8oTXZlu7nCQSN6WUlD1Xutg0CuYVtjaN2OXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Task1 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Lh/n3Hgn8oTXZlu7nCQSN6WUlD1Xutg0CuYVtjaN2OXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Task1 ---
+[8mha:////4AL6PacTGBEETp+mqWJDSEx+OMP3gIntRjVUw+kbFUXsAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\workspace\Task1\src\test\resources
+[INFO] 
+[8mha:////4Lh/n3Hgn8oTXZlu7nCQSN6WUlD1Xutg0CuYVtjaN2OXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Task1 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Lh/n3Hgn8oTXZlu7nCQSN6WUlD1Xutg0CuYVtjaN2OXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Task1 ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.522 s
+[INFO] Finished at: 2020-08-07T15:55:10+03:00
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
